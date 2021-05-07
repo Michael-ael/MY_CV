@@ -38,7 +38,7 @@ img{
 
 .container .left-side{
     position: relative;
-    background: #003147;
+    background: var(--dark-color);
     padding: 40px;
 }
 
@@ -48,7 +48,7 @@ img{
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
-    border-bottom: 1px solid rgba(225, 225, 225, 0.2);
+    border-bottom: 1px solid rgba(225, 225, 225, 0.5);
 }
 
 .profileText .imgBx{
@@ -116,7 +116,7 @@ img{
     display: inline-block;
     width: 30px;
     font-size: 18px;
-    color: #03a9f4;
+    color: rgb(212, 209, 209);
 }
 
 .contactInfo ul li span{
@@ -130,7 +130,7 @@ img{
 }
 
 .contactInfo.education h5{
-    color: #03a9f4;
+    color: var(--dark-color);
     font-family: 500;
 }
 
@@ -201,7 +201,7 @@ img{
 }
 
 .title2{
-    color: #003147;
+    color: var(--dark-color);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -234,7 +234,7 @@ p{
 
 .about .box .text h4{
     text-transform: uppercase;
-    color: #2a7da2;
+    color: #2c2c2c;
     font-size: 16px;
 }
 
@@ -269,13 +269,13 @@ p{
     background: #f0f0f0;
 }
 
-.skills .box .percent div{
+/* .skills .box .percent div{
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     background: #03a9f4;
-}
+} */
 
 .interest ul{
     display: grid;
@@ -290,8 +290,9 @@ p{
 }
 
 .interest ul li .fa{
-    color: #03a9f4;
+    color: #292929;
     font-size: 18px;
+    margin-right: 10px;
 }
 
 @media(max-width: 1000px){
