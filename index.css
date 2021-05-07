@@ -7,8 +7,13 @@
     font-family:'Poppins', sans-serif;
 }
 
+:root{
+    --dark-color: #111111;
+    --bg-dark-blue: #003147;
+}
+
 body{
-    background: lightblue;
+    background: #e5e5e5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +33,7 @@ img{
     background: #fff;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1 );
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.2);
 }
 
 .container .left-side{
