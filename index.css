@@ -291,7 +291,7 @@ p{
 
 @media(max-width: 1000px){
     .container{
-        margin: 10px;
+        margin: 0px;
         grid-template-columns: 1fr;
     }
 
